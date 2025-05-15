@@ -1,0 +1,85 @@
+table
+{
+    width: 70%;
+border-collapse: collapse;
+border-radius: 10px;
+overflow: hidden;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+border: 2px solid rgb(33, 21, 21);
+text-align: center;
+padding: 8px 8px;
+border-radius: 70%;
+box-shadow: 0 4px 10px rgba(0,0,0,0,1);
+}
+.e{
+    color: rgb(232, 16, 185);
+}
+.nn {
+    color: rgb(2, 97, 13);
+}
+.o {
+    color: rgb(142, 104, 100);
+   background-color: rgb(109, 141, 141);
+}
+.no {
+    th, td{
+padding: 10px;
+border: 1;
+    }
+tr{
+    border-bottom: 1px solid;
+}
+tr:hover {
+    background-color:rgb(100, 96, 96);
+  
+}
+}
+#I{
+    transform: rotate(300deg);
+}    
+#D{
+    background-color: rgb(48, 84, 11);
+}
+#a{
+    text-decoration: underline;
+    color:rgb(26, 26, 244);
+    border-collapse: separate;
+}
+
+.V{
+    form{
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 5px;
+        background-color: rgb(164, 20, 20);
+        border-radius: 10px;
+        line-height: 1;
+        box-shadow: 0 4px 8px;
+        border: none;
+    } 
+    thead{
+        background-color: #5f6266;
+        color: #979393;
+       
+    }
+    tbody tr{
+        border-bottom: 0px;
+    }
+    
+}
+body{
+background-color: rgb(72, 29, 29);
+background-image: url(GPT5.png);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+color: rgb(40, 22, 19);
+}
+.s{
+    background-color: rgb(116, 87, 87);
+    border-radius: 0px;
+}

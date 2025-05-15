@@ -1,0 +1,9 @@
+body{
+    color: rgb(9, 16, 24);
+    background-color: rgb(37, 35, 31);
+    font-size: large;
+background-image: url(GPT5.png);
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

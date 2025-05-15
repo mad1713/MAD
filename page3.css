@@ -1,0 +1,19 @@
+body{
+    background-image: url(gpt8.png);
+    background-attachment:fixed ;
+    color: rgb(203, 219, 244);
+    background-position: center;
+    background-size: cover;
+
+}
+.a{
+    
+    font-size: x-large;
+    margin-left: 20px;
+}
+.b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-left: 150px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire2</title>
+    <link rel="stylesheet" href="Formulaire2.css">
+</head>
+<body>
+    <P class="b"><Caption><strong>FORMULAIRE D'ENTRE</strong></Caption></P>
+    <form method="post" action="traitement.php">
+        <fieldset>
+        <legend><em><strong>ETAT CIVILE</strong> </em></legend>
+        <p class="a">
+        <label for="nom">NOM</label> 
+        <input  type="text" name="nom "id="nom"  tabindex="20" class="tr" /> 
+        <label for="sexe">SEXE</label> : 
+        <input  type="text" name="sexe" id="sexe" tabindex="290" class="tr"/>
+        </p>
+        <p class="a">
+        <label>PRENOM</label> :
+        <input type="text" name="pseudo" id="pseudo"  tabindex="20" class="tr"/>
+        <label>AGE</label> :
+        <input type="text" name="pseudo" id="pseudo" tabindex="20" class="tr"/>
+        </p>
+        <p>
+        <label> DATE DE NAISSANCE</label> : 
+        <input type="text" name="pseudo" id="pseudo"  tabindex="20" class="tr"/>
+        <label>MATRICULE</label> : 
+        <input type="text" name="pseudo" id="pseudo" tabindex="20"class="tr"/>
+        </p>
+       </fieldset>
+    </form>
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="ameliorer">MOT DE PASSE</label><br />
+            <textarea name="ameliorer" id="ameliorer" rows="2" cols="70"class="tr"></textarea>
+        </p>
+    </form>
+    <form method="post" action="traitement.php">
+         <fieldset>
+            <legend><em><strong>MES DIPLOMES</strong> </em> </legend>
+            <p>
+            <label>CEP</label> : 
+            <input  type="checkbox" name="pseudo" id="pseudo"  size="10"   class="tr"/>
+            <label>BEPC</label> : 
+            <input  type="checkbox" name="pseudo" id="pseudo"  size="20"  class="tr" />
+            <label>BAC</label> : 
+            <input  type="checkbox" name="pseudo" id="pseudo"  width="10" class="tr" />
+            </p>
+        </fieldset>
+    </form> 
+    <form method="post" action="traitement.php">
+        <fieldset>
+            <legend><em><strong> EXPERTISE</strong></em></legend>
+            <p>
+            <input type="radio" name="souhait" value="riche" id="riche" tabindex="40" /> 
+            <label for="riche">Expert IT</label>
+            <input type="radio" name="souhait" value="celebre" id="celebre" tabindex="50" />
+            <label for="celebre">Expert bavardage</label><br />
+            </p>
+        </fieldset>
+    </form> 
+    <form method="post" action="traitement.php">
+        <fieldset>
+            <legend><em><strong> SITUATION MATRIMONIAL</strong></em></legend>
+            <p>
+            <input type="radio" name="souhait" value="riche" id="riche" tabindex="40" /> 
+            <label for="riche">Marié(e)</label><br />
+            <input type="radio" name="souhait" value="celebre" id="celebre" tabindex="50" />
+            <label for="celebre">Célibataire</label><br />
+            <input type="radio" name="souhait" value="riche" id="riche" tabindex="40" /> 
+            <label for="riche">Fiancé</label><br />
+            <input type="radio" name="souhait" value="riche" id="riche" tabindex="40" /> 
+            <label for="riche">Autres</label><br />
+            </p>
+        </fieldset>
+    </form> 
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="ameliorer"><em><strong> COMMENTAIRE</strong></em></label><br />
+            <textarea name="ameliorer" id="ameliorer" rows="10"  cols="70"class="tr"></textarea>
+        </p>
+    </form>
+    <form method="post" action="traitement.php">
+    <label for="ameliorer">LES BOUTONS</label><br />
+         <p>
+        <input type="submit"  value="Envoyer"/> 
+        <input type="submit" value="Effacer" />
+        <input type="submit" value="Quitter" />
+        </p>
+    </form>
+    <p><a href="CV.html">Next...</a></p>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{ 
+    background-color: rgb(234, 229, 238);
+background-image:url(IMG6.jpg) ;
+background-attachment:fixed ;
+    background-position: center;
+    background-size: cover;
+    font-size: large;
+}
+table{ 
+    width: 90%;
+    height: 50%;
+  
+   font-size: 40px;
+   margin-left: 100px;
+}
+#s{
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+}
+#z{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+   
+}
+a{
+    color: rgb(153, 56, 153);
+    text-decoration: none;
+}
