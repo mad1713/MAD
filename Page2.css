@@ -20,13 +20,13 @@ body{
     
     color: rgb(14, 15, 17);
     font-size: x-large;
-    background-image: url(GPT5.png);
+    background-image: url( GPT5.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 #s{
-    font-size: xx-large;
+    font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }

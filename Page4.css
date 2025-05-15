@@ -1,0 +1,57 @@
+body{color:rgb(41, 41, 63);font-family: ’Trebuchet MS’, times, verdana;
+     background-image: url(GPT5.png);
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: cover;
+    font-size: x-large;
+    margin-left: 50px;
+
+}
+.pas_de_retrait{list-style-position: inside;}
+.retrait{list-style-position:outside;}
+.cercle
+{
+list-style-type: circle;
+}
+.carre
+{
+list-style-type: square;
+}
+.rien
+{
+list-style-type: none;
+}
+.commence_a_zero
+{
+list-style-type: decimal-leading-zero;
+}
+.lettres_minuscules
+{
+list-style-type: lower-alpha;
+}
+.chiffres_romains
+{
+list-style-type: upper-roman;
+}
+.lettres_grecques
+{
+list-style-type: lower-greek;}
+h2
+{
+text-indent: 20px;
+font-family: Arial, Verdana, "Times New Roman", serif;
+}
+em
+{
+background-color: yellow;
+}
+strong
+{
+color: red;
+}
+.S{
+    color: black;
+    margin-left: 70px;
+    text-decoration: underline;
+    font-size: xx-large;
+}
