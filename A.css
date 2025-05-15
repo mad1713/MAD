@@ -7,11 +7,11 @@ background-attachment:fixed ;
     font-size: large;
 }
 table{ 
-    width: 90%;
+    width: 100%;
     height: 50%;
   
    font-size: 40px;
-   margin-left: 100px;
+   margin-left: 4px;
 }
 #s{
     text-align: center;
